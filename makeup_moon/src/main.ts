@@ -1,9 +1,12 @@
-import { createApp } from 'vue'
+import { createApp, h } from 'vue'
 import App from './App.vue'
 import './index.css'
 import { router } from './router'
 
-const app = createApp(App)
+
+const app = createApp({
+    render: () => h(App)
+}    )
 
 app.use(router)
 

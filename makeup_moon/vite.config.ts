@@ -12,7 +12,8 @@ export default defineConfig({
         port: 3000,
     },
         resolve: {
-            alias: {"@": "/src/", vue: "vue/dist/vue.esm-bundler.js"},
+            // alias: {"@": "/src/", vue: "vue/dist/vue.esm-bundler.js"},
+            alias: {"@": "/src/", },
 
         },
 
