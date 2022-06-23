@@ -6,8 +6,8 @@ import { router } from './router'
 
 const app = createApp({
     render: () => h(App)
-}    )
+})
 
 app.use(router)
 
-createApp(App).mount('#app')
+app.mount("#app")

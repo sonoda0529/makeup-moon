@@ -1,5 +1,11 @@
 <template>
-<p>ss</p>
+<div class="w-96 h-96 bg-black">
+    <p class="">ss</p>
+</div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
 
 </template>
 
